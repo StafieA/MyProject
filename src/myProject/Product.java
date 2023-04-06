@@ -14,8 +14,8 @@ public Product(int id, double price, String name) {
 	this.price = price;
 	this.name = name;
 }
-public Product() {
-	}
+//public Product() {
+//	}
 @Override
 public int compareTo(Product o) {
 	
