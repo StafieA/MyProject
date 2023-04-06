@@ -64,6 +64,7 @@ public class Shop {
 		Product p6 = (Product)p5.clone();
 		
 		p6.setId(10);
+                p6.setId(12);
 		
 	     List<Product> list = new ArrayList<>(List.of(p1,p2,p3,p4,p5));
 	     Comparator<Product> c = ( a, b)-> Integer.compare(p1.getId(), p2.getId());
